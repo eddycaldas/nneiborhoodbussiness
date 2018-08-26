@@ -6,6 +6,7 @@ exports.up = function(knex, Promise) {
     table.text("address")
     table.string("number")
     table.text("website")
+    table.integer("zipcode")
     table.text("category")
   })
 };
