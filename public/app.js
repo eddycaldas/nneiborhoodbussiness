@@ -6,11 +6,11 @@ $(document).ready(function() {
   .then(function(data) {
     // console.log(data);
     for (i=1; i<data.length; i++) {
-      var filterZipCode = data[i].address;
+      var filterZipCode = data[i];
       // console.log(filterZipCode);
       // var zipCode = (/\d/g);
       // var zipCodeResult = filterZipCode.match(zipCode).join();
-      console.log(filterZipCode);
+      console.log(data);
     }
   })
 })
