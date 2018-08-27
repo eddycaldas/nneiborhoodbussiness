@@ -2,6 +2,7 @@
 exports.up = function(knex, Promise) {
   return knex.schema.createTable("business", (table) => {
     table.increments()
+    table.text('image')
     table.text("name")
     table.text("address")
     table.string("number")

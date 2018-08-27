@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-	<head>
-		<meta charset="utf-8">
-		<title></title>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	</head>
-	<body>
-		
-		<form id="single-button">
-			<input type="text">
-      <button type="submit" class="btn btn-default btn-danger"><a href="#">Search</a></button>
-    </form>
-		
-		
-		
-		<script src='app.js'></script>
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <title>E-neighborhood BUsiness</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="hidden-div" id="hidden-div">
+    <div class='business'>
+      <h2 class='title'>E-Neighborhood Business</h2>
+      <h3 class='sub-title'>Find Businesses locally</h3>
+      <Form id='form-inline'>
+          <input id='title'type="text" placeholder="Zip Code">
+          <button>Search</button>
+      </Form>
+      <div id="root"></div>
+      <div id='header' class='header'></div>
+    </div>
+    
+    
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src='app.js'></script>
+  </body>
 </html>

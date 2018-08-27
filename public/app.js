@@ -1,19 +1,49 @@
 const business_API = "https://e-neighborhood-business.herokuapp.com/business";
 
-
-$(document).ready(function() {
-  $.get(business_API)
-  .then(function(data) {
-    // console.log(data);
-    for (i=1; i<data.length; i++) {
-      var filterZipCode = data[i];
-      // console.log(filterZipCode);
-      // var zipCode = (/\d/g);
-      // var zipCodeResult = filterZipCode.match(zipCode).join();
-      console.log(data);
-    }
+      $(document).ready(function() {    
+        
+        $("button").click(function() {
+          $(".title").hide();
+          $(".sub-title").hide();
+          $("#form-inline").css({"padding-top": "40px"});
+        })
+        
+        
+        
+        
+        
+        
+        
+        
+          $.get(business_API)
+          .then(function(data) {
+          $('#form-inline').submit((event) => {
+              event.preventDefault();
+            const zipCodeProvided = $('#title').val();
+                for(i=1; i<data.length; i++) {
+            const showBusiness = data[i].zipcode
+            const showName = data[i].name
+            const showNumber = data[i].number
+            const showAddress = data[i].address
+    
+            if( zipCodeProvided == showBusiness ) {
+    
+              $("#header").append(`<tr id="head"><td>${showName}</td></tr>`)
+              $(".header").append(
+                `<tr>
+                <td>${showAddress}</td>
+                <td>${showNumber}</td>
+              </tr>`
+              )              
+            }
+           }
+        });
+    })
   })
-})
+  
+  
+  
+  
 
 
 
@@ -27,34 +57,3 @@ $(document).ready(function() {
 
 
 
-
-
-
-
-
-
-
-
-
-// $( "#searchForm" ).submit(function( event ) {
-//    event.preventDefault();
-// 
-//   var $form = $( this ),
-//   term = $form.find( "input[name='s']" ).val();
-//   console.log(term);
-// 
-// 
-// 
-     
-     
-     
-     
-  // Send the data using post
-  // var posting = $.post( business_API, { s: term } );
- 
-  // Put the results in a div
-  // posting.done(function( data ) {
-  //   var content = $( data ).find( "#content" );
-  //   $( "#result" ).empty().append( content );
-  // });
-// });
