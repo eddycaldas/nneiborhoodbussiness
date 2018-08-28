@@ -18,19 +18,18 @@ const business_API = "https://e-neighborhood-business.herokuapp.com/business";
             const showName = data[i].name
             const showNumber = data[i].number
             const showAddress = data[i].address
-            const showImage = data[i].image
-            
-            if( zipCodeProvided == showBusiness ) {
-              
-              
-              
-              
-                  $(".header").append(
-                  `<br><br><div>
+            // const showImage = data[i].image
+    
+            if( zipCodeProvided == showBusiness ) {              
+    
+    
+    
+                  $("#header").append(
+                  `<br><div>
                 <h1>${showName}</h1>
                 <h2>${showAddress}</h2>
                 <h2>${showNumber}</h2>
-              </div><br>`
+                </div><br><hr>`
               )              
             }
            }
