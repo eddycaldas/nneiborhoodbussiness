@@ -48,6 +48,18 @@ button {
 button:hover {
   background-color: #11FAA5;
 }
+h1 {
+  font-size: 130%;
+  /* text-align: center; */
+}
+h2 {
+  font-size: 80%;
+}
+
+
+
+
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
@@ -90,8 +102,11 @@ button {
   margin-top: 10px;
   font-size: 280%;
 }
-tr {
-  font-size: 300%;
+h1 {
+  font-size: 400%;
+}
+h2 {
+  font-size: 200%;
 }
 
 }
@@ -102,31 +117,3 @@ tr {
 }
 
 
-
-
-#root {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.card {
-  margin: 1rem;
-  border: 1px solid gray;
-}
-
-@media screen and (min-width: 600px) {
-  .card {
-    flex: 1 1 calc(50% - 2rem);
-  }
-}
-
-@media screen and (min-width: 900px) {
-  .card {
-    flex: 1 1 calc(33% - 2rem);
-  }
-}

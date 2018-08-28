@@ -7,14 +7,7 @@ const business_API = "https://e-neighborhood-business.herokuapp.com/business";
           $(".sub-title").hide();
           $("#form-inline").css({"padding-top": "40px"});
         })
-        
-        
-        
-        
-        
-        
-        
-        
+
           $.get(business_API)
           .then(function(data) {
           $('#form-inline').submit((event) => {
@@ -25,15 +18,19 @@ const business_API = "https://e-neighborhood-business.herokuapp.com/business";
             const showName = data[i].name
             const showNumber = data[i].number
             const showAddress = data[i].address
-    
+            const showImage = data[i].image
+            
             if( zipCodeProvided == showBusiness ) {
-    
-              $("#header").append(`<tr id="head"><td>${showName}</td></tr>`)
-              $(".header").append(
-                `<tr>
-                <td>${showAddress}</td>
-                <td>${showNumber}</td>
-              </tr>`
+              
+              
+              
+              
+                  $(".header").append(
+                  `<br><br><div>
+                <h1>${showName}</h1>
+                <h2>${showAddress}</h2>
+                <h2>${showNumber}</h2>
+              </div><br>`
               )              
             }
            }
