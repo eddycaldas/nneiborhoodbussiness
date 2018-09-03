@@ -5,7 +5,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .business {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("../images/bg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("./images/bg.jpg");
   min-height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -57,12 +57,29 @@ h2 {
   text-align: center;
 }
 #header {
-  background-color: black;
-  width: 300px;
-  height: auto;
-  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  grid-auto-rows: auto;
+  margin: 0px 50px;
 }
-
+#theDiv {
+  border: 1px solid #f76707;
+  border-radius: 5px;
+  background-color: #F4A54A;
+  color: black;
+}
+img.picture {
+    width: 100%;
+}
+#separator {
+  height: 55px;
+  width: 100%;
+}
+#footer {
+  height: 55px;
+  width: 100%;
+}
 
 
 
@@ -78,12 +95,12 @@ h2 {
   padding-top: 60%;
   display: flex;
   justify-content: center;
-  font-size: 360%;
+  font-size: 160%;
 }
 .sub-title {
   display: flex;
   justify-content: center;
-  font-size: 300%;
+  font-size: 100%;
 }
 input#title {
   margin-left: auto;
@@ -91,28 +108,50 @@ input#title {
   display: flex;
   justify-content: center;
   width: 90%;
-  height: 90px;
+  height: 40px;
   border-radius: 15px;
   margin-bottom: 10px;
-  font-size: 250%;
+  font-size: 150%;
   text-align: center;
 }
 button {
   display: flex;
   justify-content: center;
   width: 90%;
-  height: 100px;
-  margin-left: 50px;
-  margin-right: 50px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 15px;
   margin-top: 10px;
-  font-size: 280%;
+  font-size: 150%;
 }
 h1 {
-  font-size: 400%;
+  font-size: 200%;
 }
 h2 {
-  font-size: 200%;
+  font-size: 100%;
+}
+#header {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: auto;
+  margin: 0px 20px;
+}
+
+#theDiv {
+  border: 1px solid #f76707;
+  border-radius: 5px;
+  background-color: #F2C087;
+  color: black;
+}
+#separator {
+  height: 25px;
+  width: 100%;
+}
+#footer {
+  height: 25px;
+  width: 100%;
 }
 
 }
