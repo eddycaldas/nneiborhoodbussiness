@@ -9,6 +9,10 @@ exports.up = function(knex, Promise) {
     table.text("website")
     table.integer("zipcode")
     table.text("category")
+    table.text("hours")
+    table.text("summary")
+    table.text('social')
+    
   })
 };
 
