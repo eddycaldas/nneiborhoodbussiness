@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 8000;
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cors());
-app.use(express.static('public'))
+app.use(express.static('public'));
 
 const routes = {
   business: require("./routes/business")

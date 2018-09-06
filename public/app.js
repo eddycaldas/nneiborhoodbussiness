@@ -7,9 +7,6 @@ $(document).ready(function() {
   $("#form-inline").css({"padding-top": "40px"});
     });
 
-
-
-
   $.get(business_API)
   .then(function(data) {
     
@@ -29,6 +26,7 @@ $(document).ready(function() {
                           var showCategory = data[i].category
                           var showHours = data[i].hours
                           var showSummary = data[i].summary
+                          console.log(data[1].image);
                                       if( zipCodeProvided == showBusiness ) { 
                                         $("#header").append( 
                                                     `<div id='theDiv'>
