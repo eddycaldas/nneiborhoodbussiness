@@ -91,6 +91,13 @@ img.picture {
   width: 200px;
   height: 200px;
 }
+#dialogMsg {
+  display: none;
+}
+#answer {
+  width: 200px;
+  height: 200px;
+}
 
 
 
