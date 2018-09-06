@@ -9,7 +9,6 @@ $(document).ready(function() {
 
   $.get(business_API)
   .then(function(data) {
-    
       $('#form-inline').submit((event) => { 
           event.preventDefault();
           const zipCodeProvided = $('#title').val(); 
