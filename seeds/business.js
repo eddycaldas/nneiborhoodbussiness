@@ -6,7 +6,7 @@ exports.seed = function(knex, Promise) {
       // Inserts seed entries
       return knex('business').insert([
         {
-          image: "../public/images/pic.png", 
+          image: "../public//assets/images/pic.png", 
           name: "HNS Property Services", 
           address:"Centennial, Colorado 80015", 
           zipcode: "80015", 
@@ -20,7 +20,7 @@ exports.seed = function(knex, Promise) {
         
         
         {
-          image: "../public/images/pic2.png", 
+          image: "../public//assets/images/pic2.png", 
           name: "Business #2", 
           address:"Centennial, Colorado 80015", 
           zipcode: "80015", 
@@ -32,7 +32,7 @@ exports.seed = function(knex, Promise) {
           
         },
         {
-          image: "../public/images/pic8.png", 
+          image: "../public//assets/images/pic8.png", 
           name: "Business #3", 
           address:"Centennial, Colorado 80015", 
           zipcode: "80015", 
@@ -45,7 +45,7 @@ exports.seed = function(knex, Promise) {
         },
         
         {
-          image: "../public/images/pic3.png", 
+          image: "../public//assets/images/pic3.png", 
           name: "Impeccable Electric", 
           address: "Parker,Colorado 80134", 
           zipcode: "80134", 
@@ -58,7 +58,7 @@ exports.seed = function(knex, Promise) {
         },
         
         {
-          image: "../public/images/pic4.png", 
+          image: "../public//assets/images/pic4.png", 
           name: "HNS Concrete", 
           address: "Centennial, Colorado 80015", 
           zipcode: "80015", 
@@ -70,7 +70,7 @@ exports.seed = function(knex, Promise) {
           
         },
         {
-          image: "../public/images/pic9.png", 
+          image: "../public//assets/images/pic9.png", 
           name: "Business #4", 
           address: "Centennial, Colorado 80015", 
           zipcode: "80015", 
@@ -83,7 +83,7 @@ exports.seed = function(knex, Promise) {
         },
         
         {
-          image: "../public/images/pic5.png", 
+          image: "../public//assets/images/pic5.png", 
           name: "VCT Construction", 
           address: "Colorado Springs, Colorado 80927", 
           zipcode: "80927", 
@@ -96,7 +96,7 @@ exports.seed = function(knex, Promise) {
         },
     
         {
-          image: "../public/images/pic6.png", 
+          image: "../public//assets/images/pic6.png", 
           name: "VCT Painting ", 
           address: "Parker, Colorado 80134", 
           zipcode: "80134", 
@@ -109,7 +109,7 @@ exports.seed = function(knex, Promise) {
         },
         
         {
-          image: "../public/images/pic7.png", 
+          image: "../public//assets/images/pic7.png", 
           name: "Open Country Septic", 
           address: "Kiowa, CO 80117", 
           zipcode: "80117", 
