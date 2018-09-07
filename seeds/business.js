@@ -20,7 +20,7 @@ exports.seed = function(knex, Promise) {
         
         
         {
-          image: "https://img.cutenesscdn.com/640/ppds/657c9696-52cd-4435-b491-60b14d145141.jpg", 
+          image: "https://upload.wikimedia.org/wikipedia/commons/0/0d/Image1%24image2.png", 
           name: "Business #2", 
           address:"Centennial, Colorado 80015", 
           zipcode: "80015", 
@@ -32,7 +32,7 @@ exports.seed = function(knex, Promise) {
           
         },
         {
-          image: "https://img.cutenesscdn.com/640/ppds/657c9696-52cd-4435-b491-60b14d145141.jpg", 
+          image: "https://upload.wikimedia.org/wikipedia/commons/c/c4/%24image6%24.png", 
           name: "Business #3", 
           address:"Centennial, Colorado 80015", 
           zipcode: "80015", 

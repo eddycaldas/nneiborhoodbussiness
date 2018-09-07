@@ -25,7 +25,7 @@ $(document).ready(function() {
                           var showCategory = data[i].category
                           var showHours = data[i].hours
                           var showSummary = data[i].summary
-                          console.log(data[1].image);
+                          // console.log(data[1].image);
                                       if( zipCodeProvided == showBusiness ) { 
                                         $("#header").append( 
                                                     `<div id='theDiv'>
@@ -36,7 +36,11 @@ $(document).ready(function() {
                                                   </div>`
                                                 )
                         }    
-                      }
+                    
+                  
+                        
+      }
+      
                     } else {           
                           $('#header2').append('Type a 5 digit zip code').css('color','white');
                     }    
@@ -44,6 +48,9 @@ $(document).ready(function() {
         });                         
     });
 });
+
+
+  
                                                     // $("li").click( function() {
                                                     //       $("li").removeClass('selected');
                                                     //       $(this).addClass('selected');
