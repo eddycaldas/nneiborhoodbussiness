@@ -20,7 +20,7 @@ exports.seed = function(knex, Promise) {
         
         
         {
-          image: "https://upload.wikimedia.org/wikipedia/commons/0/0d/Image1%24image2.png", 
+          image: "https://www.downloadfeast.com/wp-content/uploads/2016/03/selfie.jpg", 
           name: "Business #2", 
           address:"Centennial, Colorado 80015", 
           zipcode: "80015", 
@@ -32,7 +32,7 @@ exports.seed = function(knex, Promise) {
           
         },
         {
-          image: "https://upload.wikimedia.org/wikipedia/commons/c/c4/%24image6%24.png", 
+          image: "https://travel.state.gov/content/travel/en/us-visas/business/_jcr_content/tsg-rwd-content-page-parsysxxx/slideshow.img.png/1512148994695.png", 
           name: "Business #3", 
           address:"Centennial, Colorado 80015", 
           zipcode: "80015", 
@@ -45,7 +45,7 @@ exports.seed = function(knex, Promise) {
         },
         
         {
-          image: "https://img.cutenesscdn.com/640/ppds/657c9696-52cd-4435-b491-60b14d145141.jpg", 
+          image: "https://travel.state.gov/content/travel/en/us-visas/business/_jcr_content/tsg-rwd-content-page-parsysxxx/slideshow.img.png/1512148994695.png", 
           name: "Impeccable Electric", 
           address: "Parker,Colorado 80134", 
           zipcode: "80134", 
@@ -58,7 +58,7 @@ exports.seed = function(knex, Promise) {
         },
         
         {
-          image: "https://img.cutenesscdn.com/640/ppds/657c9696-52cd-4435-b491-60b14d145141.jpg", 
+          image: "https://startupnation.com/wp-content/uploads/2016/06/Screen-Shot-2017-05-25-at-12.40.53-PM.png", 
           name: "HNS Concrete", 
           address: "Centennial, Colorado 80015", 
           zipcode: "80015", 
@@ -70,7 +70,7 @@ exports.seed = function(knex, Promise) {
           
         },
         {
-          image: "https://img.cutenesscdn.com/640/ppds/657c9696-52cd-4435-b491-60b14d145141.jpg", 
+          image: "https://www.edx.org/sites/default/files/course/image/featured-card/business-immersion-illustration_318x210.jpg", 
           name: "Business #4", 
           address: "Centennial, Colorado 80015", 
           zipcode: "80015", 
@@ -83,7 +83,7 @@ exports.seed = function(knex, Promise) {
         },
         
         {
-          image: "https://img.cutenesscdn.com/640/ppds/657c9696-52cd-4435-b491-60b14d145141.jpg", 
+          image: "https://dsx.weather.com/util/image/w/320x180_10day_forecast_teaser_0.jpg?v=at&w=320&h=180&api=7db9fe61-7414-47b5-9871-e17d87b8b6a0", 
           name: "VCT Construction", 
           address: "Colorado Springs, Colorado 80927", 
           zipcode: "80927", 
@@ -96,7 +96,7 @@ exports.seed = function(knex, Promise) {
         },
     
         {
-          image: "https://img.cutenesscdn.com/640/ppds/657c9696-52cd-4435-b491-60b14d145141.jpg", 
+          image: "https://dsx.weather.com/util/image/w/eshima1.jpeg?v=at&w=1280&h=720&api=7db9fe61-7414-47b5-9871-e17d87b8b6a0", 
           name: "VCT Painting ", 
           address: "Parker, Colorado 80134", 
           zipcode: "80134", 
@@ -109,7 +109,7 @@ exports.seed = function(knex, Promise) {
         },
         
         {
-          image: "https://img.cutenesscdn.com/640/ppds/657c9696-52cd-4435-b491-60b14d145141.jpg", 
+          image: "https://wwwcache.wral.com/asset/weather/2018/09/03/17815646/40602485_1792560284124355_1968296719057682432_o-DMID1-5g05cunm2-640x360.jpg", 
           name: "Open Country Septic", 
           address: "Kiowa, CO 80117", 
           zipcode: "80117", 

@@ -25,19 +25,21 @@ $(document).ready(function() {
                           var showCategory = data[i].category
                           var showHours = data[i].hours
                           var showSummary = data[i].summary
-                          // console.log(data[1].image);
+                          var showId = data[i].id
+
                                       if( zipCodeProvided == showBusiness ) { 
+                                      
                                         $("#header").append( 
                                                     `<div id='theDiv'>
                                                     <img class="picture" src=${showImage} alt="picture"/>
-                                                  <h1>${showName}</h1>
-                                                  <h2>${showAddress}</h2>
-                                                  <h2>${showNumber}</h2>
+                                                  <h1 id='name'>${showName}</h1>
+                                                  <h2 id='address'>${showAddress}</h2>
+                                                  <h2 id='number'>${showNumber}</h2>
                                                   </div>`
                                                 )
+                                        
                         }    
                     
-                  
                         
       }
       
