@@ -4,25 +4,72 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>E-neighborhood Business</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="modalStyle.css">
   </head>
   <body id='body'>
     <div class='business'>
+      
       <h2 class='title'>E-Neighborhood Business</h2>
       <h3 class='sub-title'>Find Businesses locally</h3>
+      <div class='content'></div>
+
         <Form id='form-inline'>
           <input id='title'type="text" placeholder="Zip Code">
-          <button>Search</button>
+          <button class='button'>Search</button>
         </Form>
-          <div id='separator'></div>
-            <div id='header'></div>
-              <div id='header2'>
-                <div id='picked'></div>
-              </div>    
+
+        <div id='separator'></div>
+        
+      <!--Creates the popup body-->
+      <!-- <div class="popup-overlay"> -->
+      <!--Creates the popup content-->
+         <!-- <div class="popup-content">
+          <h2>Pop-Up</h2>
+          <p> This is an example pop-up that you can make using jQuery.</p>
+         <!popup's close button-->
+        <!-- </div>
+      </div> --> 
+        
+        
+        <div id='header'></div>
+    
+        <!-- footer -->
+  <footer>
+    <div class="footer-text">
+      <h3>Copyright &copy; 2018. All rights reserved</h3>
+    </div>
+    <div class='footer-icons'>
+      <a href="https://www.facebook.com/" target="_top _blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com/" target="_top _blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/" target="_top _blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://plus.google.com/" target="_top _blank"><i class="fab fa-google-plus"></i></a>    
+    </div>
+  </footer>
+      
+      
+        
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
+    
+    <script id="entry-template" type="text/x-handlebars-template">
+        {{#each entry}}
+          <!--Creates the popup body-->
+          <div class="popup-overlay">
+          <!--Creates the popup content-->
+           <div class="popup-content">
+              <h2>{{name}}</h2>
+              <p>{{number}}</p>
+             <!--popup's close button-->
+              <!-- <button class="close">Close</button>     -->
             </div>
           </div>
-        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        {{/each}}  
+    </script>
+        
+    
     <script src='app.js'></script>
   </body>
 </html>
