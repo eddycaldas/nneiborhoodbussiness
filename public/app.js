@@ -41,12 +41,15 @@ $(document).ready(function() {
                                             
                                             <!-- Modal data HTML embedded directly into document -->
                                                               <div id="ex1" class="modal">
-                                                                <p>Thanks for clicking. That felt good.</p>
+                                
                                                                 <img class="picture" src=${showImage} alt="picture"/>
                                                                 <h1 id='name'>${showName}</h1>
                                                                 <h2 id='address'>${showAddress}</h2>
                                                                 <h2 id='number'>${showNumber}</h2>
-                                                                <h2 id='showHours'>${showHours}</h2>
+                                                                <h2 id='hours'>${showHours}</h2>
+                                                                <h2 id='website'>${showWebsite}</h2>
+                                                                <h2 id='category'>${showCategory}</h2>
+                                                                <h2 id='summary'>${showSummary}</h2>
             <!-- Don't change anything -->
                                                                 <a href="#" rel="modal:close">Close</a>
                                                               </div>

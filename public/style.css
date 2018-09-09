@@ -24,24 +24,31 @@ font-family: 'Montserrat', sans-serif;
 .title {
   display: flex;
   justify-content: center;
-  padding-top: 20%;
+  padding-top: 10%;
 }
 .sub-title {
+  padding-top: 1%;
+  padding-bottom: 6%;
   display: flex;
   justify-content: center;
   margin-top: 1%;
   margin-bottom: 1%;
 }
+h3.sub-title {
+  font-size: 120%;
+}
 input#title {
+  font-size: 160%;
   border-radius: 5px;
-  height: 25px;
-  width: 250px;
+  height: 40px;
+  width: 450px;
   text-align: center;
+  
 }
 .button {
   border-radius: 5px;
-  height: 30px;
-  width: 60px;
+  height: 45px;
+  width: 160px;
   background-color: #1cb495;
   color: white;
   font-weight: bold;
@@ -54,8 +61,8 @@ h1 {
   font-size: 130%;
   text-align: center;
 }
-h2 {
-  font-size: 80%;
+h2.title {
+  font-size: 290%;
   text-align: center;
 }
 #header {
@@ -66,6 +73,8 @@ h2 {
   margin: 0px 50px;
 }
 #theDiv {
+  display: flex;
+  flex-direction: column;
   border: 1px solid #f76707;
   border-radius: 5px;
   background-color: #F4A54A;
@@ -85,8 +94,30 @@ img.picture {
   width: 200px;
   height: 180px;
 }
-
-
+h2#address {
+  font-size: 100%;
+  text-align: center;
+}
+h2#number {
+  font-size: 100%;
+  text-align: center;
+}
+h2#hours{
+  font-size: 100%;
+  text-align: center;
+}
+h2#website {
+  font-size: 100%;
+  text-align: center;
+}
+h2#category {
+  font-size: 100%;
+  text-align: center;
+}
+h2#summary {
+  font-size: 100%;
+  text-align: center;
+}
 
 
 /* footer */
@@ -170,7 +201,6 @@ i {
   padding-top: 60%;
   display: flex;
   justify-content: center;
-  font-size: 160%;
 }
 .sub-title {
   display: flex;
@@ -204,7 +234,7 @@ h1 {
   font-size: 200%;
 }
 h2 {
-  font-size: 100%;
+  /* font-size: 100%; */
 }
 #header {
   display: grid;
