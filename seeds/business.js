@@ -20,12 +20,12 @@ exports.seed = function(knex, Promise) {
         
         
         {
-          image: "https://www.downloadfeast.com/wp-content/uploads/2016/03/selfie.jpg", 
-          name: "Business #2", 
-          address:"Centennial, Colorado 80015", 
+          image: "http://nebula.wsimg.com/16fbfe754055c12b6a6e26f00a538d03?AccessKeyId=54131516281893263A9C&disposition=0&alloworigin=1", 
+          name: "Maid By Wonder Women", 
+          address:"Parker, Colorado 80015", 
           zipcode: "80015", 
-          number:"720-555-5535", 
-          website:"https://www.google.com", 
+          number:"720-788-0878", 
+          website:"http://www.maidbywonderwomen.com", 
           category:"cleaning",
           hours: "9am - 5pm",
           summary: "The most obvious pattern that the maps show is a global one: vegetation greenness is high around the equator all year long, where temperatures, rainfall and sunlight are abundant. Between the equator and the poles, the vegetation greenness rises and falls as the seasons change."
