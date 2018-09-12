@@ -38,8 +38,8 @@ $(document).ready(function() {
                                                         <h2 id='address'>${showAddress}</h2>
                                                         <h2 id='number'>${showNumber}</h2>
                                                         <h2 id='hours'>${showHours}</h2>
-                                                        <h2 id='website'><a href='${showWebsite}'target="_top _blank"><i class="fas fa-globe"></i></a></h2>
-                                                        <h2 id='category'>${showCategory}</h2>
+                                                        <h2 id='website'><a href='${showWebsite}'target="_top _blank"><i class="fas fa-globe"> website</i></a></h2>
+                                                        <h2 id='category'>Category: ${showCategory}</h2><br/>
                                                         <h2 id='summary'>${showSummary}</h2>
                                                         <a href="#" rel="modal:close">Close</a>
                                                       </div>
@@ -57,5 +57,4 @@ $(document).ready(function() {
         });                
     });
 });
-
 

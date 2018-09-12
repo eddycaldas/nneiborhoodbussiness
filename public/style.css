@@ -4,7 +4,13 @@
 font-family: 'Montserrat', sans-serif;
 }
 .business {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("./assets/images/bg.jpg");
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a7cfdf+0,23538a+54 */
+background: #a7cfdf; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #a7cfdf 0%, #23538a 54%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #a7cfdf 0%,#23538a 54%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #a7cfdf 0%,#23538a 54%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("./assets/images/bg.jpg"); */
   min-height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -170,6 +176,7 @@ i {
 .modal-info {
   color: black;
 }
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 #form-inline {
