@@ -7,4 +7,9 @@ router.get("/", (req, res) => {
   .then((data) => res.json(data))
 })
 
+router.get("/:id", (req, res) => {
+  queries.business.read(req.params.id)
+  .then((business) => res.json(business))
+})
+
 module.exports = router
