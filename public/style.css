@@ -81,9 +81,9 @@ h2.title {
 #theDiv {
   display: flex;
   flex-direction: column;
-  border: 1px solid #f76707;
+  border: 2px solid #1cb495;
   border-radius: 5px;
-  background-color: #F4A54A;
+  background-color: #F8FBF9;
   color: black;
 }
 img.picture {
@@ -100,28 +100,36 @@ img.picture {
   width: 200px;
   height: 180px;
 }
+h2.address {
+  font-size: 70%;
+  text-align: center;
+}
+h2.number {
+  font-size: 70%;
+  text-align: center;
+}
 h2#address {
-  font-size: 100%;
+  font-size: 70%;
   text-align: center;
 }
 h2#number {
-  font-size: 100%;
+  font-size: 70%;
   text-align: center;
 }
 h2#hours{
-  font-size: 100%;
+  font-size: 70%;
   text-align: center;
 }
 h2#website {
-  font-size: 100%;
+  font-size: 70%;
   text-align: center;
 }
 h2#category {
-  font-size: 100%;
+  font-size: 70%;
   text-align: center;
 }
 h2#summary {
-  font-size: 100%;
+  font-size: 70%;
   text-align: center;
 }
 footer {
@@ -173,8 +181,16 @@ i {
 .popup-content.active {
   visibility:visible;
 }
-.modal-info {
+a.modal-info {
+  text-decoration-line: none;
   color: black;
+}
+a.modal-info2 {
+    text-decoration-line: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -234,9 +250,9 @@ h1 {
   margin: 0px 1px;
 }
 #theDiv {
-  border: 1px solid #f76707;
+  border: 1px solid #1cb495;
   border-radius: 5px;
-  background-color: #F2C087;
+  background-color: #F8FBF9;
   color: black;
 }
 #separator {
@@ -255,6 +271,13 @@ h1 {
   width:100%;
   height:50%;
   margin-left: 0%;
+}
+a.modal-info2 {
+    text-decoration-line: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 2px;
 }
 }
 /* iPads (portrait and landscape) ----------- */
