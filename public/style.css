@@ -242,6 +242,10 @@ input#title {
 h1 {
   font-size: 200%;
 }
+h2.title {
+  font-size: 210%;
+  text-align: center;
+}
 #header {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -278,6 +282,13 @@ a.modal-info2 {
     background-color: black;
     border-radius: 5px;
     padding: 2px;
+}
+a.modal-info {
+  text-decoration-line: none;
+  color: black;
+}
+footer {
+  padding-top: 35px;
 }
 }
 /* iPads (portrait and landscape) ----------- */
