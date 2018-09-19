@@ -4,13 +4,11 @@
 font-family: 'Montserrat', sans-serif;
 }
 .business {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a7cfdf+0,23538a+54 */
-background: #a7cfdf; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #a7cfdf 0%, #23538a 54%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #a7cfdf 0%,#23538a 54%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #a7cfdf 0%,#23538a 54%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-  /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("./assets/images/bg.jpg"); */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+22,7db9e8+99&1+12,0+98 */
+  background: -moz-linear-gradient(top, rgba(30,87,153,1) 12%, rgba(30,87,153,0.88) 22%, rgba(124,184,231,0) 98%, rgba(125,185,232,0) 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(30,87,153,1) 12%,rgba(30,87,153,0.88) 22%,rgba(124,184,231,0) 98%,rgba(125,185,232,0) 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(30,87,153,1) 12%,rgba(30,87,153,0.88) 22%,rgba(124,184,231,0) 98%,rgba(125,185,232,0) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
   min-height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -21,14 +19,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', end
   flex-direction: column;
 }
 #form-inline {
-  height: 20vh;
+  height: 29vh;
   display: flex;
   justify-content: center;
 }
 .title {
   display: flex;
   justify-content: center;
-  padding-top: 10%;
+  padding-top: 15%;
 }
 .sub-title {
   padding-top: 1%;
@@ -79,12 +77,35 @@ h2.title {
   margin: 0px 50px;
 }
 #theDiv {
+  box-shadow: 10px 15px 20px rgba(0,0,0,0.29), 0 6px 6px rgba(0,0,0,0.13);
   display: flex;
   flex-direction: column;
   border: 2px solid #1cb495;
   border-radius: 5px;
   background-color: #F8FBF9;
   color: black;
+}
+div#header2 {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    color: #1cb495;
+}
+.footer {
+
+    height:24px;
+    width: 100%; 
+    /* background-image: none; */
+    /* background-repeat: repeat; */
+    /* background-attachment: scroll; */
+    /* background-position: 0% 0%; */
+    position: static;
+    bottom: 50pt;
+    left: 0pt;
+
+}
+footer.footer {
+    margin: 40px 0 40px 0;
 }
 img.picture {
     width: 100%;
@@ -156,7 +177,6 @@ footer {
   transition: transform 1s;
 }
 .footer-icons .fab:hover {
-  color: #e6af2e;
   transform: translateY(-15px);
 }
 i {
@@ -201,7 +221,7 @@ a.modal-info2 {
   flex-direction: column;
 }
 .title {
-  padding-top: 30%;
+  padding-top: 50%;
   display: flex;
   justify-content: center;
 }
@@ -249,9 +269,9 @@ h2.title {
 #header {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-gap: 10px;
+  grid-gap: 30px;
   grid-auto-rows: auto;
-  margin: 0px 1px;
+  margin: 0px 15px;
 }
 #theDiv {
   border: 1px solid #1cb495;
@@ -289,6 +309,8 @@ a.modal-info {
 }
 footer {
   padding-top: 35px;
+  display: flex;
+  justify-content: center;
 }
 }
 /* iPads (portrait and landscape) ----------- */

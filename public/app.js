@@ -52,7 +52,7 @@ $(document).ready(function() {
                     }  
                   }
                 } else {           
-                  $('#header2').append('Type a 5 digit zip code').css('color','white');
+                  $('#header2').append('Type a 5 digit zip code').css('color','#3B5998');
                 }                              
         });      
     });
