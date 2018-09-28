@@ -86,7 +86,6 @@ h2.title {
   color: black;
 }
 div#header2 {
-    /* justify-content: center; */
     margin: 20px 10% 20px 10%;
     border-radius: 5px;
     text-align:center;
@@ -134,6 +133,10 @@ h2#number {
   font-size: 70%;
   text-align: center;
 }
+.phone, .web{
+  text-decoration: none;
+  color: black;
+}
 h2#hours{
   font-size: 70%;
   text-align: center;
@@ -176,7 +179,7 @@ footer {
 .footer-icons .fab:hover {
   transform: translateY(-15px);
 }
-i {
+.fab {
   margin: 25px;
 }
 .popup-overlay{
@@ -276,9 +279,6 @@ h2.title {
   background-color: #F8FBF9;
   color: black;
 }
-div#header2 {
-  
-}
 #separator {
   height: 25px;
   width: 100%;
@@ -315,6 +315,19 @@ footer {
 }
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* #form-inline {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    grid-auto-rows: auto;
+    margin: 0px 15px;
+  } */
+  
 }
 
 

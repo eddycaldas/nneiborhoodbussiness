@@ -29,17 +29,16 @@ $(document).ready(function() {
                   var html = `<div class='theDiv' id='theDiv'>
                                 <img class="picture" src=${showImage} alt="picture"/>
                                 <h1 id='name'>${showName}</h1>
-                                <h2 id='address'>${showAddress}</h2>
-                                <h2 id='number'>${showNumber}</h2>            
+                                <a class='phone'href="tel:${showNumber}"><h2 id='number'><i class="fas fa-phone"> ${showNumber}</i></h2></a>
+                                <h2 id='address'>${showAddress}</h2>           
                               
                                 <div id="${showId}" class="modal">
                                   <img class="picture" src=${showImage} alt="picture"/>
                                   <h1 class='name'>${showName}</h1>
                                   <h2 class='address'>${showAddress}</h2>
-                                  <h2 class='number'>${showNumber}</h2>
+                                  <a class='phone'href="tel:${showNumber}"><h2 class='number'><i class="fas fa-phone"> ${showNumber}</i></h2></a>
                                   <h2 id='hours'>${showHours}</h2>
-                                  <h2 id='website'><a href='${showWebsite}'target="_top _blank"><i class="fas fa-globe"> website</i></a></h2>
-                                  <h2 id='category'>Category: ${showCategory}</h2><br/>
+                                  <h2 id='website'><a class='web'href='${showWebsite}'target="_top _blank"><i class="fas fa-globe"> website</i></a></h2>
                                   <h2 id='summary'>${showSummary}</h2>
                                   <a class='modal-info2'href="#" rel="modal:close">Close</a>
                                 </div>
