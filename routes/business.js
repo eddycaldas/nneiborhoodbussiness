@@ -12,4 +12,14 @@ router.get("/:id", (req, res) => {
   .then((business) => res.json(business))
 })
 
+router.post("/", (req, res) => {
+  queries.business.create(req.body)
+  .then((business) => res.json(business))
+})
+
+router.delete("/:id", (req, res) => {
+  queries.business.delete(req.params.id)
+  .then(() => res.sendStatus(202))
+})
+
 module.exports = router

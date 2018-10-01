@@ -3,7 +3,7 @@
   padding: 0;
 font-family: 'Montserrat', sans-serif;
 }
-.business {
+#body, #body2 {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+22,7db9e8+99&1+12,0+98 */
   background: -moz-linear-gradient(top, rgba(30,87,153,1) 12%, rgba(30,87,153,0.88) 22%, rgba(124,184,231,0) 98%, rgba(125,185,232,0) 99%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top, rgba(30,87,153,1) 12%,rgba(30,87,153,0.88) 22%,rgba(124,184,231,0) 98%,rgba(125,185,232,0) 99%); /* Chrome10-25,Safari5.1-6 */
@@ -19,14 +19,14 @@ font-family: 'Montserrat', sans-serif;
   flex-direction: column;
 }
 #form-inline {
-  height: 29vh;
+  height: 15vh;
   display: flex;
   justify-content: center;
 }
 .title {
   display: flex;
   justify-content: center;
-  padding-top: 10%;
+  padding-top: 230px;
 }
 .sub-title {
   padding-top: 1%;
@@ -46,13 +46,13 @@ input#title {
   font-size: 160%;
   border-radius: 5px;
   height: 40px;
-  width: 450px;
+  width: 250px;
   text-align: center;
 }
 .button {
   border-radius: 5px;
   height: 45px;
-  width: 160px;
+  width: 90px;
   background-color: #1cb495;
   color: white;
   font-weight: bold;
@@ -64,17 +64,64 @@ input#title {
 h1 {
   font-size: 130%;
   text-align: center;
+  color: black;
 }
 h2.title {
   font-size: 290%;
   text-align: center;
 }
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+#business {
+  margin-left: 13%;
+}
+#left-side {
+  /* width: 30%; */
+  position: fixed;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 16%;
+}
+#signup {
+  border-radius: 2px;
+  width: 100px;
+  height: 50px;
+  margin: 1em;
+}
+#call-center {
+  border-radius: 2px;
+  width: 100px;
+  height: 50px;
+  margin: 1em;
+}
+#fun-things {
+  border-radius: 2px;
+  width: 100px;
+  height: 50px;
+  margin: 1em;
+}
+#subscribe {
+  border-radius: 2px;
+  width: 100px;
+  height: 50px;
+  margin: 1em;
+}
+#signup:hover, #call-center:hover, #fun-things:hover, #subscribe:hover {
+  background-color: #11FAA5;
+}
+
+
+
+
 #header {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 40px;
   grid-auto-rows: auto;
-  margin: 0px 50px;
+  margin: 0px 2% 0 0%;
 }
 #theDiv {
   box-shadow: 10px 15px 20px rgba(0,0,0,0.29), 0 6px 6px rgba(0,0,0,0.13);
@@ -93,15 +140,14 @@ div#header2 {
     padding-bottom: 15px;
 }
 .footer {
-    height:24px;
+    height:54px;
     width: 100%; 
     position: static;
     bottom: 50pt;
     left: 0pt;
-
 }
 footer.footer {
-    margin: 40px 0 40px 0;
+    margin: 40px 0 50px 0;
 }
 img.picture {
     width: 100%;
@@ -110,16 +156,17 @@ img.picture {
   width: 100%;
 }
 #footer {
-  height: 55px;
+  height: 95px;
   width: 100%;
 }
 .picture {
   width: 200px;
-  height: 180px;
+  height: 130px;
 }
 h2.address {
   font-size: 70%;
   text-align: center;
+  color: black;
 }
 h2.number {
   font-size: 70%;
@@ -128,6 +175,7 @@ h2.number {
 h2#address {
   font-size: 70%;
   text-align: center;
+  color: black;
 }
 h2#number {
   font-size: 70%;
@@ -140,6 +188,7 @@ h2#number {
 h2#hours{
   font-size: 70%;
   text-align: center;
+  color: black;
 }
 h2#website {
   font-size: 70%;
@@ -152,6 +201,7 @@ h2#category {
 h2#summary {
   font-size: 70%;
   text-align: center;
+  color: black;
 }
 footer {
   position: relative;
@@ -216,16 +266,21 @@ a.modal-info2 {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 #form-inline {
+    margin: 0px 6% 0 15%;
+
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 .title {
+  margin: 0px 6% 0 15%;
   padding-top: 40%;
   display: flex;
   justify-content: center;
 }
 .sub-title {
+    margin: 0px 6% 0 15%;
+
   display: flex;
   justify-content: center;
   font-size: 100%;
@@ -260,24 +315,81 @@ input#title {
   font-size: 150%;
 }
 h1 {
-  font-size: 200%;
+  font-size: 100%;
 }
 h2.title {
-  font-size: 210%;
+  font-size: 120%;
   text-align: center;
 }
+
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+.left-side {
+  width: 20%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 27%;
+}
+.business {
+  width: 80%;
+}
+#signup {
+  width: 100%;
+  background-color: white;
+  height: 30px;
+  border-radius: 2px;
+  margin: 1em;
+}
+#call-center {
+  width: 100%;
+  background-color: white;
+  height: 30px;
+  border-radius: 2px;
+  margin: 1em;
+}
+#fun-things {
+  width: 100%;
+  background-color: white;
+  height: 30px;
+  border-radius: 2px;
+  margin: 1em;
+}
+#subscribe {
+  width: 100%;
+  background-color: white;
+  height: 30px;
+  border-radius: 2px;
+  margin: 1em;
+}
+
+
+
+
+
+
+
+
 #header {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 30px;
   grid-auto-rows: auto;
-  margin: 0px 15px;
+  margin: 0px 5% 0 19%;
 }
 #theDiv {
   border: 1px solid #1cb495;
   border-radius: 5px;
   background-color: #F8FBF9;
   color: black;
+}
+.picture {
+  width: 200px;
+  height: 130px;
 }
 #separator {
   height: 25px;
@@ -308,26 +420,11 @@ a.modal-info {
   color: black;
 }
 footer {
-  padding-top: 35px;
+  padding-top: 5px;
   display: flex;
   justify-content: center;
 }
 }
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  /* #form-inline {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-  #header {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
-    grid-auto-rows: auto;
-    margin: 0px 15px;
-  } */
-  
-}
+
 
 

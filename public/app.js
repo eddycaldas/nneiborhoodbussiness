@@ -3,8 +3,10 @@ const business_API = "https://e-neighborhood-business.herokuapp.com/business";
 $(document).ready(function() {            
   $("button").click(function() {
   $(".title").css({"padding-top": "40px"});
+
   $(".sub-title").hide();
   $("#form-inline").css({"padding-top": "40px"});
+  $(".footer").css({"padding-top": "150px"});
     });
   $.get(business_API)
   .then(function(data) {
@@ -58,5 +60,19 @@ $(document).ready(function() {
                 }                              
         });      
     });
+
+
+    $(".span").click(function() {
+      console.log('its been clicked!!!!')
+    })
+
+
+
+
+
+
 });
+
+
+
 
