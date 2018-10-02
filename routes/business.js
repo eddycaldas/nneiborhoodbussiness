@@ -22,4 +22,9 @@ router.delete("/:id", (req, res) => {
   .then(() => res.sendStatus(202))
 })
 
+router.put("/:id", (req, res) => {
+  queries.business.update(req.params.id, req.body)
+  .then((business) => res.send(200))
+})
+
 module.exports = router

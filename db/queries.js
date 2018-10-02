@@ -1,7 +1,5 @@
 const knex = require('./')
 
-// const Business = knex("business")
-
 module.exports = {
   business: {
     delete(id) {
@@ -12,6 +10,9 @@ module.exports = {
     },
     read(id) {
       return knex('business').where({id}).first()
+    },
+    update(id, body) {
+      return knex("business").where({id}).update(body)
     },
     list() {
       return knex('business')
