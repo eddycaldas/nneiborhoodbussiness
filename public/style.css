@@ -72,7 +72,6 @@ h2.title {
 }
 .navbar {
   width: 100%;
-  /* position: relative; */
   display: flex;
   flex-direction: column;
 }
@@ -345,7 +344,7 @@ h2.title {
   position: fixed;
   left: 0;
   height: 70vh;
-  margin-top: 16%;
+  margin-top: 36%;
 }
 #right-side {
   margin-right: 17%;
@@ -353,9 +352,10 @@ h2.title {
   position: fixed;
   left: 0;
   height: 70vh;
-  margin-top: 44%;
+  margin-top: 64%;
 }
 #signup {
+  background-color: #1cb495;
   color: black;
   border-radius: 2px;
   width: 80px;
@@ -363,6 +363,7 @@ h2.title {
   margin: 1em;
 }
 #call-center {
+  background-color: #1cb495;
   color: black;
   border-radius: 2px;
   width: 80px;
@@ -370,6 +371,7 @@ h2.title {
   margin: 1em;
 }
 #fun-things {
+  background-color: #1cb495;
   color: black;
   border-radius: 2px;
   width: 80px;
@@ -377,6 +379,7 @@ h2.title {
   margin: 1em;
 }
 #subscribe {
+  background-color: #1cb495;
   color: black;
   border-radius: 2px;
   width: 80px;
