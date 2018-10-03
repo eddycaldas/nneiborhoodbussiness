@@ -347,8 +347,6 @@ h2.title {
   position: fixed;
   left: 0;
   height: 70vh;
-  /* display: flex;
-  flex-direction: column; */
   margin-top: 16%;
 }
 #right-side {
@@ -357,8 +355,6 @@ h2.title {
   position: fixed;
   left: 0;
   height: 70vh;
-  /* display: flex;
-  flex-direction: column; */
   margin-top: 44%;
 }
 #signup {
