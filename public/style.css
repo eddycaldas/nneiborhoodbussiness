@@ -60,6 +60,7 @@ input#title {
 }
 .button:hover {
   background-color: #11FAA5;
+  cursor: pointer;
 }
 h1 {
   font-size: 130%;
@@ -104,6 +105,9 @@ h2.title {
   width: 100px;
   height: 40px;
   margin: 1em;
+}
+#signup:hover, #call-center:hover, #fun-things, #subscribe {
+  cursor: pointer;
 }
 #call-center {
   color: black;
@@ -166,7 +170,6 @@ img.picture {
   width: 100%;
 }
 #footer {
-  /* height: 5px; */
   width: 100%;
 }
 .picture {
@@ -319,7 +322,7 @@ input#title {
   height: 40px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 15px;
+  border-radius: 25px;
   margin-top: 10px;
   font-size: 150%;
 }
@@ -357,7 +360,7 @@ h2.title {
 #signup {
   background-color: #1cb495;
   color: black;
-  border-radius: 2px;
+  border-radius: 5px;
   width: 80px;
   height: 30px;
   margin: 1em;
@@ -365,7 +368,7 @@ h2.title {
 #call-center {
   background-color: #1cb495;
   color: black;
-  border-radius: 2px;
+  border-radius: 5px;
   width: 80px;
   height: 30px;
   margin: 1em;
@@ -373,7 +376,7 @@ h2.title {
 #fun-things {
   background-color: #1cb495;
   color: black;
-  border-radius: 2px;
+  border-radius: 5px;
   width: 80px;
   height: 30px;
   margin: 1em;
@@ -381,7 +384,7 @@ h2.title {
 #subscribe {
   background-color: #1cb495;
   color: black;
-  border-radius: 2px;
+  border-radius: 5px;
   width: 80px;
   height: 30px;
   margin: 1em;
