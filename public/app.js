@@ -7,6 +7,7 @@ $(document).ready(function() {
   $("#form-inline").css({"padding-top": "40px"});
   $(".footer").css({"padding-top": "150px"});
     });
+    
   $.get(business_API)
   .then(function(data) {
       $('#form-inline').submit((event) => { 
