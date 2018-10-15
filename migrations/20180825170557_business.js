@@ -12,7 +12,7 @@ exports.up = function(knex, Promise) {
     table.text("hours")
     table.text("summary")
     table.text('social')
-    
+    table.text("neighborhoodName")
   })
 };
 

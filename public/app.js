@@ -25,6 +25,7 @@ $(document).ready(function() {
                             var showCategory = data[i].category
                             var showHours = data[i].hours
                             var showSummary = data[i].summary
+                            var showNeighborhoodName = data[i].neighborhoodName
                             var showId = data[i].id
                             var html = `<div class='theDiv' id='theDiv'>
                                           <img class="picture" src=${showImage} alt="picture"/>
@@ -54,14 +55,21 @@ $(document).ready(function() {
                     .css('background-color','#FFD2D2')
                     .css('border','2px solid #FFD2D2')
                     .css('font-weight','900');
-                }                              
+                }       
+                
+       
+
+
+
+
+
+
         });      
      });
     $(".span").click(function() {
       console.log('its been clicked!!!!')
     })
 });
-
 
 
 
