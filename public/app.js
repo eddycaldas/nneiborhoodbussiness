@@ -27,6 +27,7 @@ $(document).ready(function() {
                             var showHours = data[i].hours
                             var showSummary = data[i].summary
                             var showNeighborhoodName = data[i].neighborhoodName
+                            console.log(showNeighborhoodName)
                             var showId = data[i].id
                             var html = `<div class='theDiv' id='theDiv'>
                                           <img class="picture" src=${showImage} alt="picture"/>

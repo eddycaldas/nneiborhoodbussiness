@@ -17,5 +17,13 @@
     "express": "^4.16.3",
     "knex": "^0.15.2",
     "pg": "^7.4.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddycaldas/nneiborhoodbussiness.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eddycaldas/nneiborhoodbussiness/issues"
+  },
+  "homepage": "https://github.com/eddycaldas/nneiborhoodbussiness#readme"
 }
