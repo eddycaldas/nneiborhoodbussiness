@@ -1,4 +1,4 @@
-const business_API = "https://e-neighborhood-business2.herokuapp.com/business";
+const business_API = "https://e-neighborhood-business3.herokuapp.com/business";
 
 $(document).ready(function() {            
   $("button").click(function() {
