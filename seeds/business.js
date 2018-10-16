@@ -14,8 +14,7 @@ exports.seed = function(knex, Promise) {
           website:"https://www.hnspropertyservices.com", 
           category:"cleaning",
           hours: "9am - 5pm",
-          summary: "The most obvious pattern that the maps show is a global one: vegetation greenness is high around the equator all year long, where temperatures, rainfall and sunlight are abundant. Between the equator and the poles, the vegetation greenness rises and falls as the seasons change.",
-          neighborhoodName: "Southlands"
+          summary: "The most obvious pattern that the maps show is a global one: vegetation greenness is high around the equator all year long, where temperatures, rainfall and sunlight are abundant. Between the equator and the poles, the vegetation greenness rises and falls as the seasons change."
         },
         
         
@@ -28,8 +27,7 @@ exports.seed = function(knex, Promise) {
           website:"http://www.maidbywonderwomen.com", 
           category:"cleaning",
           hours: "9am - 5pm",
-          summary: "The most obvious pattern that the maps show is a global one: vegetation greenness is high around the equator all year long, where temperatures, rainfall and sunlight are abundant. Between the equator and the poles, the vegetation greenness rises and falls as the seasons change.",
-          neighborhoodName: "Southlands"
+          summary: "The most obvious pattern that the maps show is a global one: vegetation greenness is high around the equator all year long, where temperatures, rainfall and sunlight are abundant. Between the equator and the poles, the vegetation greenness rises and falls as the seasons change."
         },
         {
           image: "https://travel.state.gov/content/travel/en/us-visas/business/_jcr_content/tsg-rwd-content-page-parsysxxx/slideshow.img.png/1512148994695.png", 
@@ -40,8 +38,7 @@ exports.seed = function(knex, Promise) {
           website:"https://www.google.com", 
           category:"cleaning",
           hours: "9am - 5pm",
-          summary: "The most obvious pattern that the maps show is a global one: vegetation greenness is high around the equator all year long, where temperatures, rainfall and sunlight are abundant. Between the equator and the poles, the vegetation greenness rises and falls as the seasons change.",
-          neighborhoodName: "Southlands"
+          summary: "The most obvious pattern that the maps show is a global one: vegetation greenness is high around the equator all year long, where temperatures, rainfall and sunlight are abundant. Between the equator and the poles, the vegetation greenness rises and falls as the seasons change."
         },
         
         {
@@ -53,8 +50,7 @@ exports.seed = function(knex, Promise) {
           website:"https://www.google.com", 
           category:"electric",
           hours: "9am - 5pm",
-          summary: "The most obvious pattern that the maps show is a global one: vegetation greenness is high around the equator all year long, where temperatures, rainfall and sunlight are abundant. Between the equator and the poles, the vegetation greenness rises and falls as the seasons change.",
-          neighborhoodName: "Pine Creek"
+          summary: "The most obvious pattern that the maps show is a global one: vegetation greenness is high around the equator all year long, where temperatures, rainfall and sunlight are abundant. Between the equator and the poles, the vegetation greenness rises and falls as the seasons change."
         },
         
         {
@@ -66,8 +62,7 @@ exports.seed = function(knex, Promise) {
           website:"https://www.google.com", 
           category:"construction",
           hours: "9am - 5pm",
-          summary: "The most obvious pattern that the maps show is a global one: vegetation greenness is high around the equator all year long, where temperatures, rainfall and sunlight are abundant. Between the equator and the poles, the vegetation greenness rises and falls as the seasons change.",
-          neighborhoodName: "Pine Creek"
+          summary: "The most obvious pattern that the maps show is a global one: vegetation greenness is high around the equator all year long, where temperatures, rainfall and sunlight are abundant. Between the equator and the poles, the vegetation greenness rises and falls as the seasons change."
         },
         {
           image: "https://www.edx.org/sites/default/files/course/image/featured-card/business-immersion-illustration_318x210.jpg", 
@@ -78,8 +73,7 @@ exports.seed = function(knex, Promise) {
           website:"https://www.google.com", 
           category:"construction",
           hours: "9am - 5pm",
-          summary: "The most obvious pattern that the maps show is a global one: vegetation greenness is high around the equator all year long, where temperatures, rainfall and sunlight are abundant. Between the equator and the poles, the vegetation greenness rises and falls as the seasons change.",
-          neighborhoodName: "Pine Creek"
+          summary: "The most obvious pattern that the maps show is a global one: vegetation greenness is high around the equator all year long, where temperatures, rainfall and sunlight are abundant. Between the equator and the poles, the vegetation greenness rises and falls as the seasons change."
         },
         
         {
@@ -91,8 +85,7 @@ exports.seed = function(knex, Promise) {
           website:"https://www.google.com", 
           category:"construction",
           hours: "9am - 5pm",
-          summary: "The most obvious pattern that the maps show is a global one: vegetation greenness is high around the equator all year long, where temperatures, rainfall and sunlight are abundant. Between the equator and the poles, the vegetation greenness rises and falls as the seasons change.",
-          neighborhoodName: "Meadows Creek"
+          summary: "The most obvious pattern that the maps show is a global one: vegetation greenness is high around the equator all year long, where temperatures, rainfall and sunlight are abundant. Between the equator and the poles, the vegetation greenness rises and falls as the seasons change."
         },
     
         {
@@ -104,8 +97,7 @@ exports.seed = function(knex, Promise) {
           website:"https://www.google.com", 
           category:"construction",
           hours: "9am - 5pm",
-          summary: "The most obvious pattern that the maps show is a global one: vegetation greenness is high around the equator all year long, where temperatures, rainfall and sunlight are abundant. Between the equator and the poles, the vegetation greenness rises and falls as the seasons change.",
-          neighborhoodName: "Meadows Creek"
+          summary: "The most obvious pattern that the maps show is a global one: vegetation greenness is high around the equator all year long, where temperatures, rainfall and sunlight are abundant. Between the equator and the poles, the vegetation greenness rises and falls as the seasons change."  
         },
         
         {
@@ -117,8 +109,7 @@ exports.seed = function(knex, Promise) {
           website: "https://www.google.com", 
           category: "Other",
           hours: "9am - 5pm",
-          summary: "The most obvious pattern that the maps show is a global one: vegetation greenness is high around the equator all year long, where temperatures, rainfall and sunlight are abundant. Between the equator and the poles, the vegetation greenness rises and falls as the seasons change.",
-          neighborhoodName: "Meadows Creek"
+          summary: "The most obvious pattern that the maps show is a global one: vegetation greenness is high around the equator all year long, where temperatures, rainfall and sunlight are abundant. Between the equator and the poles, the vegetation greenness rises and falls as the seasons change." 
         }
       
 

@@ -25,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/eddycaldas/nneiborhoodbussiness/issues"
   },
-  "homepage": "https://github.com/eddycaldas/nneiborhoodbussiness#readme"
+  "homepage": "https://github.com/eddycaldas/nneiborhoodbussiness#readme",
+  "devDependencies": {}
 }
